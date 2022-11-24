@@ -1,0 +1,26 @@
+﻿
+@import url(metro-all.min.css);
+
+.divBanner {
+            font-size: 30px;
+        }
+        @media screen and (min-width: 576px) {
+            .divBanner {
+                font-size: 30px;
+            }
+        }
+        @media screen and (min-width: 768px) {
+            .divBanner {
+                font-size: 30px;
+                margin-bottom: -40px;
+                z-index: 1;
+            }
+        }
+        @media screen and (min-width: 992px) {
+            .divBanner {
+                font-size: 40px;
+                margin-bottom: -40px;
+                z-index: 1;
+            }
+        }
+
